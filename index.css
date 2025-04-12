@@ -1,0 +1,101 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px 20px;
+  }
+  
+  .logo {
+    /* Cursive style using Dancing Script from Google Fonts */
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+    font-size: 2.5rem;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem; /* Increase the font size as desired */
+    transition: color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    color: #00bcd4;
+  }
+  
+  /* Main Content */
+  main {
+    padding: 20px;
+  }
+  
+  /* Section Headings */
+  section h2 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  /* Paragraphs */
+  p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+
+/* Profile Container Styling */
+.profile-container {
+    background-color: white; /* White background for the container */
+    padding: 40px;           /* Increase padding for more space inside */
+    border-radius: 20px;     /* Larger rounded corners */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Deeper shadow for more emphasis */
+    max-width: 900px;        /* Increase the width of the container */
+    margin: 50px auto;       /* Center the container horizontally and vertically */
+    text-align: center;      /* Center-align the content */
+}
+
+/* Container for the image: set fixed size and center it */
+.picture-container {
+    width: 250px;            /* Increase the size of the picture */
+    height: 250px;
+    margin: 0 auto 30px auto; /* Add more spacing below the image */
+    overflow: hidden;
+    border-radius: 50%;      /* Keep the circular shape */
+    border: 6px solid #00bcd4; /* Slightly thicker border */
+}
+
+/* Profile image styling */
+.profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Bio styling */
+.bio {
+    font-size: 1.4rem;       /* Larger font size for better readability */
+    color: #555;
+    line-height: 2;          /* Increase line height for better spacing */
+}
+
